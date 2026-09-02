@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+env/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Database files
+*.db
+*.sqlite3
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific (هر پروژه می‌تونه خودش رو داشته باشه)
+**/data/raw/
+**/data/processed/
+**/models/
+**/*.pkl
+**/*.h5
+**/*.pt
+**/*.pth
+**/*.onnx
+
+# Files that might contain API keys
+**/config.py
+**/secrets.py
+**/keys.py
