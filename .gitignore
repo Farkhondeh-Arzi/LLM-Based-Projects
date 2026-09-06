@@ -39,15 +39,6 @@ env/
 Thumbs.db
 desktop.ini
 
-# Project-specific (هر پروژه می‌تونه خودش رو داشته باشه)
-**/data/raw/
-**/data/processed/
-**/models/
-**/*.pkl
-**/*.h5
-**/*.pt
-**/*.pth
-**/*.onnx
 
 # Files that might contain API keys
 **/config.py
